@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:ExemploImageButton" 
+             x:Class="ExemploImageButton.MainPage" Padding="0,60,0,0">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Testando o Image Button"  />
+        
+            <ImageButton Aspect="AspectFill" BorderColor="Red"  BorderWidth="4" 
+             Source="bertuzzi.jpg" HeightRequest="300" WidthRequest="300" AutomationProperties.HelpText="bertuzzi button" />
+            
+
+    </StackLayout>
+</ContentPage>
